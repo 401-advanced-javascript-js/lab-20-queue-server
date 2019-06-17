@@ -1,7 +1,8 @@
 'use strict';
 
-// Create a message queue server
+require('dotenv').config();
 
+// Create a message queue server
 const QServer = require('@nmq/q/server');
 QServer.start();
 
